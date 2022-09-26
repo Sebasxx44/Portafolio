@@ -235,13 +235,12 @@ span{
 .contenido{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .contenido h1{
     color: rgb(255, 255, 255);
     font-size: 30px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Bungee Spice', cursive;
     font-weight: lighter;
     margin-left: 20px;
 }
@@ -505,6 +504,33 @@ span{
         font-size: 25px;
        margin-right: 5px;
        margin-left: 5px;
+    }
+
+
+    .contenido{
+        display:block;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contenido h1{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    
+    .contenido img{
+        width: 70px;
+        transition: all 0.5s;
+    }
+
+    .contenido .lenguajes{
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
     }
 
 
