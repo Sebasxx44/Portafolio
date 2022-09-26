@@ -120,7 +120,7 @@ i{
       width: 0;
     }
     to {
-      width: 49%;
+      width: 40%;
     }
   }
   @keyframes blink {
@@ -218,6 +218,46 @@ button:hover{
 
 span{
     color: rgb(3, 228, 123);
+}
+
+/* ESTILOS DE LAS HABILIDADES*/
+
+.habilidades{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenido h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+.contenido img{
+    width: 80px;
+    transition: all 0.5s;
+}
+
+
+.contenido .lenguajes{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
 }
 
 
